@@ -14,7 +14,8 @@ def monopoly_with_second_tier
   newHash = base_hash()
   newHash[:railroads] = {
     pieces: 4,
-    
+    :rent_in_dollars => {},
+    :names => {}
   }
 end
 
