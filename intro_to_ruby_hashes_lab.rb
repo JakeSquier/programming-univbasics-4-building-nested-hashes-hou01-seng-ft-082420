@@ -50,7 +50,7 @@ def monopoly_with_fourth_tier
   # complexity.
   monopoly = monopoly_with_third_tier()
   monopoly[:railroads][:names][:reading_railroad] = {
-    mortage_value: 100
+    mortage_value: "100"
   }
   monopoly[:railroads][:names][:pennsylvania_railroad] = {
     mortage_value: 200
