@@ -61,5 +61,5 @@ def monopoly_with_fourth_tier
   monopoly[:railroads][:names][:shortline_railroad] = {
     mortage_value: 800
   }
-  
+  return monopoly
 end
